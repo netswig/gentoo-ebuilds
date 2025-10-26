@@ -21,6 +21,6 @@ src_compile() {
 }
 
 src_install() {
-	dobin ${PN}
+	newbin ${PN} globalping
 	einstalldocs
 }
